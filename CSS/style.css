@@ -23,6 +23,11 @@ a {
 	color: #093a58;
 }
 
+h2 {
+    border-bottom: 1px dotted darkgrey;
+
+}
+
 
 h3 {
 	margin-top: 0;
@@ -51,6 +56,7 @@ img {
     margin: 0;
     color: black;
     margin-bottom: 1em;
+    margin-top: 1em;
 }
 .logo {
     padding-top: 50px;
@@ -84,7 +90,7 @@ img {
     text-align: center;
     background-color: lightgrey;
     padding: 2em 0;
-    margin-top: 30px;
+    margin-top: 50px;
 
 }
 
@@ -107,13 +113,58 @@ img {
 
 form {
     background: lightblue;
-    padding: 10px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    max-width: 100%;
 }
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+    padding-top: 10px;
+
+}
+
+textarea {
+    max-width: 100%
+
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding-left: 10px;
+
+}
+
+.question {
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
 button {
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    background: grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 textarea:focus, input:focus {
 	border: 2px solid lightblue;
 }
+
 
 
