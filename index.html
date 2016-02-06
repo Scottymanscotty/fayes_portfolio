@@ -3,28 +3,33 @@
     <head>
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	   <title>Faye Walton | Landscape Technician</title>
+       <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 	   <link rel="stylesheet" href="css/normalize.css">
 	   <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <header>
-            <h1>Faye Walton</h1>
-            <ul>
-                <li> <a href="#">Nav Link </a></li>
-                <li> <a href="#">Nav Link </a></li>
-                <li> <a href="#">Nav Link </a></li>
-                <li> <a href="#">Nav Link </a></li>
-                <li> <a href="#">Nav Link </a></li>
+        <header class="main-header">
+            <div class="container">
+            <h1 class="name">Faye Walton</h1>
+            <ul class="main-nav">
+                <li> <a href="#">About me</a></li>
+                <li> <a href="#">Photography</a></li>
+                <li> <a href="#">University Work</a></li>
+                <li> <a href="#">Professional</a></li>
+                <li> <a href="#">Curriculim Vitae</a></li>
             </ul>
+                </div> <!--/.container-->
         </header>
 
     <div class="banner">
-        <img src ="http://lorempixel.com/g/400/200/business" alt="Faye at work">
-        <h1>Faye Walton</h1>
+        <img class="logo" src="http://lorempixel.com/g/400/200/business" alt="Faye at work">
+        <h1 class="headline">Faye Walton</h1>
         <span>Landscape Technician</span>
     </div> <!--/.banner-->
 
+    <div class="container">
 
+        <div class="about col">
         <h2>About me</h2>
         <p>Si singulis quo admodum, elit officia singulis. Appellat enim minim ut enim, quo
             summis cernantur. Nescius quae aliqua non aute ex cupidatat ita amet. Esse eu ab
@@ -32,37 +37,47 @@
             possumus quid occaecat eu malis voluptate quo cohaerescant do qui nulla quis
             fugiat quamquam, proident ab aute cernantur. Officia quis aliqua offendit amet
             hic sed eram esse legam commodo.</p>
+        </div>  <!--/.about-->
 
-        <img src="http://lorempixel.com/g/400/200/abstract">
+        <div class="about col">
+        <img src="http://lorempixel.com/g/400/200/abstract" alt="Photography">
         <h2>Photography</h2>
         <p>Tamen ubi ea eram singulis, probant ipsum ullamco commodo, iudicem do quibusdam,
             do illum malis se aliquip. Varias doctrina exquisitaque, sed nulla expetendis
             sempiternum, nisi laborum si distinguantur quo nostrud instituendarum ad
             expetendis.</p>
+        </div>
 
-        <img src="http://lorempixel.com/g/400/200/abstract">
+        <div class="uni col">
+        <img src="http://lorempixel.com/g/400/200/abstract" alt="university">
         <h2>University Work</h2>
         <p>Tamen ubi ea eram singulis, probant ipsum ullamco commodo, iudicem do quibusdam,
             do illum malis se aliquip. Varias doctrina exquisitaque, sed nulla expetendis
             sempiternum, nisi laborum si distinguantur quo nostrud instituendarum ad
             expetendis.</p>
+        </div>  <!--/.uni-->
 
-        <img src="http://lorempixel.com/g/400/200/abstract">
+
+        <div class="professional col">
+        <img src="http://lorempixel.com/g/400/200/abstract" alt="professional">
         <h2>Professional</h2>
         <p>Tamen ubi ea eram singulis, probant ipsum ullamco commodo, iudicem do quibusdam,
             do illum malis se aliquip. Varias doctrina exquisitaque, sed nulla expetendis
             sempiternum, nisi laborum si distinguantur quo nostrud instituendarum ad
             expetendis.</p>
+        </div><!--/.professional-->
 
-        <img src="http://lorempixel.com/g/400/200/abstract">
+        <div class="cv col">
+        <img src="http://lorempixel.com/g/400/200/abstract" alt="C.V">
         <h2>Curriculum Vitae</h2>
         <p>Tamen ubi ea eram singulis, probant ipsum ullamco commodo, iudicem do quibusdam,
             do illum malis se aliquip. Varias doctrina exquisitaque, sed nulla expetendis
             sempiternum, nisi laborum si distinguantur quo nostrud instituendarum ad
             expetendis.</p>
+        </div><!--/.cv-->
 
-        <form action="" method="post">
-            <h1>Please don't hesitate to get in touch -</h1>
+        <form action="#" method="post">
+            <h2>Please don't hesitate to get in touch</h2>
 
             <label for="name">Name:</label>
             <input type="text" id="name" name="user_name"><br>
@@ -78,14 +93,15 @@
             <input type="checkbox" id="search_engine" value="via_search_engine" name="user_know_me"><label for="in_touch">Search engine</label><br>
             <input type="checkbox" id="other" value="via_other" name="user_know_me"><label for="in_touch">Other</label><br>
 
-            <label for"info">Tell me more:</label><br>
-            <textarea id="info" name="user_info"></textarea><br>
+            <label for="information">Tell me more:</label><br>
+            <textarea id="information" name="user_info"></textarea><br>
 
             <button type="submit">Send information</button>
         </form>
+        </div> <!--/.container-->
 
 
-        <footer>
+        <footer class="main-footer">
             <span>&copy;2016 Faye Walton - Landscape Technician</span>
         </footer>
     </body>
