@@ -59,8 +59,8 @@ img {
     margin-top: 1em;
 }
 .logo {
-    padding-top: 50px;
-    border-radius: 20px;
+
+    border-radius: 30px;
 
 }
 
@@ -80,7 +80,7 @@ img {
 .banner {
     height: 400px;
     text-align: center;
-    padding-top: 1em;
+    padding-top: 3em;
     padding-bottom: 1em;
     background-color: lightblue;
     margin-bottom: 50px;
@@ -114,7 +114,7 @@ img {
 form {
     background: lightblue;
     padding: 10px 20px;
-    margin: 10px auto;
+    margin: 50px auto;
     max-width: 100%;
 }
 
@@ -157,9 +157,11 @@ button {
     padding: 30px;
     text-align: center;
     width: 100%;
-    background: grey;
+    background: white;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 2em;
+
 
 }
 textarea:focus, input:focus {
