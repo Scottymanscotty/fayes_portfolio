@@ -1,0 +1,1 @@
+Hi there. My name is Scott Walton. I'm currently studying Front-End Development on Team Treehouse and I am starting my first project off my own back. I hope you enjoy my work and see the progress I make as I try to use Git VCS to get used to how a normal project would take shape. Thanks.
