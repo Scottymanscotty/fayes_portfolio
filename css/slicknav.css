@@ -76,6 +76,10 @@
   float: left; }
 
 .slicknav_menu {
+  box-shadow: 0 3px 4px rgba(0,0,0,.4);
+  position: fixed;
+  width: 100%;
+  top:0;
   font-size: 16px;
   box-sizing: border-box;
   background: #4c4c4c;
@@ -149,6 +153,9 @@
 .slicknav_menu a {
     text-align: center;
     font-size: 1.3em;
+
+}
+
 
 }
 
