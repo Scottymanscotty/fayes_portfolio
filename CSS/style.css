@@ -51,13 +51,6 @@ img {
     margin-bottom: 0;
 }
 
-.name {
-    font-size: 1.6em;
-    margin: 0;
-    color: black;
-    margin-bottom: 1em;
-    margin-top: 1em;
-}
 .logo {
 
     border-radius: 30px;
@@ -65,7 +58,7 @@ img {
 }
 
 .main-nav a {
-    display: block;
+    display: none;
     color: black;
     padding: 0.5em;
 }
@@ -78,12 +71,12 @@ img {
 }
 
 .banner {
-    height: 400px;
+    height: 450px;
     text-align: center;
     padding-top: 3em;
     padding-bottom: 1em;
     background-color: lightblue;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .main-footer {
@@ -108,6 +101,11 @@ img {
 }
 
 /* ---- Page Elements ---- */
+
+.faye {
+    max-width: 200px;
+    border-radius: 50px;
+}
 
 /* ---- form ---- */
 
