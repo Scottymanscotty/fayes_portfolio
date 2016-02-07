@@ -5,13 +5,17 @@
 	   <title>Faye Walton | Urban Designer</title>
        <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 	   <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/slicknav.css">
 	   <link rel="stylesheet" href="css/style.css">
-    </head>
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="jQuery/jquery.slicknav.min.js"></script>
+
+     </head>
     <body>
         <header class="main-header">
             <div class="container">
             <h1 class="name">Faye Walton </h1>
-            <ul class="main-nav menu">
+            <ul id="menu" class="main-nav">
                 <li> <a href="#">About me</a></li>
                 <li> <a href="#">Photography</a></li>
                 <li> <a href="#">University Work</a></li>
@@ -104,5 +108,12 @@
         <footer class="main-footer">
             <span>&copy;2016 Faye Walton - Urban Designer</span>
         </footer>
+
+    <script>
+        $(function() {
+                $("#menu").slicknav();
+
+        })
+    </script>
     </body>
 </html>
