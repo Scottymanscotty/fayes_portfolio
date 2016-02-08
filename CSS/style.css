@@ -188,6 +188,11 @@ textarea:focus, input:focus {
 
 @media (min-width: 769px) {
 
+    .container {
+        margin: 0 auto;
+        max-width: 90%;
+    }
+
     .col {
         width: 50%;
         float: left;
@@ -212,6 +217,10 @@ textarea:focus, input:focus {
     .container {
         max-width: 1150px;
         width: 80%;
+    }
+
+    .col {
+        width: 25%;
     }
 }
 
