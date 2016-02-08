@@ -161,12 +161,26 @@ button {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 1.5em;
-
-
 }
 textarea:focus, input:focus {
 	border: 2px solid lightblue;
 }
+
+
+/* ---- Float clearfix ---- */
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+@media (min-width: 769px) {
+
+
+}
+
+@media (min-width: 1025px)
 
 
 
