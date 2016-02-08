@@ -36,9 +36,10 @@ a {
 	text-decoration: none;
 }
 
-img, svg {
-    max-width: 100%;
+img {
+    max-width: 200px;
     border-radius: 30px;
+    
 }
 
 /* =================================
@@ -78,8 +79,9 @@ img, svg {
     margin-top: 100px;
 }
 
-.photography, .uni, .professional, .contact {
+.photography , .uni , .professional , .contact {
     margin-bottom: 20px;
+    
 
 
 }
@@ -95,8 +97,12 @@ img, svg {
 /* ---- Layout Containers ---- */
 
 .col {
+    
+    text-align: center;
+    /*
     padding-left: 1em;
     padding-right: 1em;
+    */
 }
 
 .container, .interests {
@@ -196,6 +202,8 @@ textarea:focus, input:focus {
     .col {
         width: 50%;
         float: left;
+        padding-left: 1em;
+        padding-right: 1em;
     }
 
     .about {
@@ -209,6 +217,11 @@ textarea:focus, input:focus {
 
     .interests {
         text-align: center;
+    }
+
+    img {
+        max-width: 200px;
+
     }
 
 }
@@ -231,7 +244,7 @@ textarea:focus, input:focus {
     .contact {
         float: none;
         margin: 0 auto;
-        max-width: 640px;
+        max-width: 40%;
 
     }
 }
