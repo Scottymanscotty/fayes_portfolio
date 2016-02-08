@@ -39,9 +39,7 @@ a {
 }
 
 img {
-
-	max-width: 100%;
-
+    max-width: 100%;
 }
 
 /* =================================
@@ -99,6 +97,7 @@ img {
 .container {
      padding-left: 1em;
     padding-right: 1em;
+    margin: 0 auto;
 
 }
 
@@ -177,10 +176,32 @@ textarea:focus, input:focus {
 
 @media (min-width: 769px) {
 
+    .col {
+        width: 50%;
+        float: left;
+    }
+
+    .about {
+        text-align: center;
+    }
+
+    form {
+        max-width: 600px;
+
+    }
+
+    .interests {
+        text-align: center;
+    }
 
 }
 
-@media (min-width: 1025px)
+@media (min-width: 1025px) {
+    .container {
+        max-width: 1150px;
+        width: 80%;
+    }
+}
 
 
 
