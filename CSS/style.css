@@ -198,6 +198,10 @@ textarea:focus, input:focus {
 }
 
 @media (min-width: 769px) {
+    
+    body {
+        margin-top: 75px;
+    }
 
    /* ---- Nav for larger screens ---- */
 
@@ -210,8 +214,8 @@ textarea:focus, input:focus {
 }
     .name {
         float:left;
-        display: inline-block;
-    }
+        margin: 0;
+}
 
     .slicknav_menu {
         display: none;
@@ -224,6 +228,7 @@ textarea:focus, input:focus {
 
     .main-nav {
         float:right;
+        text-transform: uppercase;
     }
 
     .main-nav li {
@@ -232,9 +237,7 @@ textarea:focus, input:focus {
         margin-left: 15px;
     }
 
-    body {
-        padding-top: 0px;
-    }
+
 
     /* ----  ---- */
 
