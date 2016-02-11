@@ -235,7 +235,7 @@ textarea:focus, input:focus {
         float: left;
         display: inline-block;
         margin-left: 10px;
-    }
+}
 
 
 
@@ -285,9 +285,6 @@ textarea:focus, input:focus {
         width: 80%;
     }
 
-    .interests {
-        max-width: 1920px;
-    }
 
     .photography, .uni, .professional {
         width: 33.3%;
