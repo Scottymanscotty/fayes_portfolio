@@ -56,10 +56,14 @@ img {
 
 }
 
+.main-nav {
+    margin: 5px 0px;
+}
+
 .main-nav a {
     display: block;
     color: black;
-    padding: 0.5em;
+    padding: 10px 15px;
 }
 
 .main-header {
@@ -197,26 +201,39 @@ textarea:focus, input:focus {
 
    /* ---- Nav for larger screens ---- */
 
+    .main-header {
+  position: fixed;
+  background: white;
+  box-shadow: 0 1px 4px rgba(0,0,0,.4);
+  width: 100%;
+  top: 0;
+}
+    .name {
+        float:left;
+        display: inline-block;
+    }
+
     .slicknav_menu {
         display: none;
     }
 
     .main-header {
         display: block;
-        float: right;
+        padding: 10px 0;
     }
 
     .main-nav {
-        float:left;
+        float:right;
     }
 
     .main-nav li {
+        float: left;
         display: inline-block;
+        margin-left: 15px;
     }
 
-    .main-nav a {
-        display: inline-block;
-        margin-right: 5px;
+    body {
+        padding-top: 0px;
     }
 
     /* ----  ---- */
