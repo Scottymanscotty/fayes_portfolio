@@ -57,7 +57,7 @@ img {
 }
 
 .main-nav a {
-    display: none;
+    display: block;
     color: black;
     padding: 0.5em;
 }
@@ -66,6 +66,7 @@ img {
     background-color: white;
     margin-bottom:  2em;
     text-align: center;
+    display: none;
 
 }
 
@@ -193,6 +194,31 @@ textarea:focus, input:focus {
 }
 
 @media (min-width: 769px) {
+
+   /* ---- Nav for larger screens ---- */
+
+    .slicknav_menu {
+        display: none;
+    }
+
+    .main-header {
+        display: block;
+    }
+
+    .main-nav {
+        float:left;
+    }
+
+    .main-nav li {
+        display: inline-block;
+    }
+
+    .main-nav a {
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+    /* ----  ---- */
 
     .container {
         margin: 0 auto;
