@@ -15,6 +15,7 @@
     margin-top: 0.188em; }
 
 .slicknav_menu {
+    text-transform: uppercase;
   *zoom: 1; }
   .slicknav_menu .slicknav_menutxt {
     display: block;
