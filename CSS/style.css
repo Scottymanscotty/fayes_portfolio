@@ -64,7 +64,7 @@ img {
 
 .main-header {
     background-color: white;
-    margin-bottom:  2em;
+
     text-align: center;
     display: none;
 
@@ -203,6 +203,7 @@ textarea:focus, input:focus {
 
     .main-header {
         display: block;
+        float: right;
     }
 
     .main-nav {
