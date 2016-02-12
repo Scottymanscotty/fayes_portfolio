@@ -39,12 +39,19 @@ a {
 img {
     max-width: 200px;
     border-radius: 30px;
-    
+}
+
+.portfolio {
+    max-width: 100%;
 }
 
 /* =================================
   Base Layout Styles
 ==================================== */
+
+.portfolio-work {
+    text-align: center;
+}
 
 .headline {
     margin-bottom: 0;
@@ -239,7 +246,7 @@ textarea:focus, input:focus {
 
 
 
-    /* ----  ---- */
+    /* ---- page layout and elements ---- */
 
     .container {
         margin: 0 auto;
