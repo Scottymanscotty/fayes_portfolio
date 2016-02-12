@@ -54,10 +54,15 @@ img {
 .gallery {
     text-align: center;
     margin-top: 50px;
+
 }
 
 .photo {
     margin: 0px;
+    max-width: 100%;
+    width: 50%;
+    float: left;
+    padding: 0 5px 5px 0;
 }
 
 /* ---- portfolios ---- */
@@ -326,6 +331,11 @@ textarea:focus, input:focus {
         max-width: 250px;
 
     }
+
+    .photo {
+    width: 33%;
+    padding: 0 10px 10px 0;
+}
 
 }
 
