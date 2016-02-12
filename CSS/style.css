@@ -89,7 +89,6 @@ img {
 
 .main-nav a {
     display: block;
-    color: black;
     padding: 5px 5px;
 }
 
@@ -158,6 +157,30 @@ img {
 .myinterests {
     margin-bottom: 40px;
 }
+
+/* ---- psuedo styling a PLACEHOLDERS ---- */
+
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color: lightblue;
+}
+
+a:hover {
+    color: pink;
+}
+
+a:active {
+    color:blue;
+}
+
+a:focus {
+    color: red;
+    border: 1px solid red;
+}
+
 /* ---- form ---- */
 
 form {
