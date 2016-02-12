@@ -43,6 +43,7 @@ img {
 
 .portfolio {
     max-width: 100%;
+    border-radius: 0;
 }
 
 /* =================================
@@ -51,6 +52,12 @@ img {
 
 .portfolio-work {
     text-align: center;
+}
+
+.one, .two {
+    width: 50%;
+    float: left;
+
 }
 
 .headline {
