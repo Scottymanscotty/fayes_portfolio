@@ -60,6 +60,18 @@ img {
 
 }
 
+.one {
+    border-right: 2px solid lightblue;
+}
+
+.two {
+    border-left: 2px solid lightblue;
+}
+
+.three {
+    border-top: 4px solid lightblue;
+}
+
 .headline {
     margin-bottom: 0;
 }
