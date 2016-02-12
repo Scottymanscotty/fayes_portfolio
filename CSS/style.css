@@ -38,17 +38,29 @@ a {
 
 img {
     max-width: 200px;
-    border-radius: 30px;
+
 }
 
 .portfolio {
     max-width: 100%;
-    border-radius: 0;
 }
 
 /* =================================
   Base Layout Styles
 ==================================== */
+
+/* ---- photography ---- */
+
+.gallery {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.photo {
+    margin: 0px;
+}
+
+/* ---- portfolios ---- */
 
 .portfolio-work {
     text-align: center;
@@ -75,12 +87,6 @@ img {
 
 .headline {
     margin-bottom: 0;
-}
-
-.logo {
-
-    border-radius: 30px;
-
 }
 
 .main-nav {
