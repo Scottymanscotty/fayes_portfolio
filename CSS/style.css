@@ -264,6 +264,13 @@ textarea:focus, input:focus {
 
     }
 
+    .col {
+        width: 50%;
+        float: left;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
 }
 
 @media (min-width: 769px) {
@@ -315,12 +322,7 @@ textarea:focus, input:focus {
         max-width: 90%;
     }
 
-    .col {
-        width: 50%;
-        float: left;
-        padding-left: 1em;
-        padding-right: 1em;
-    }
+
 
     .about {
         text-align: center;
