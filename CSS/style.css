@@ -60,8 +60,7 @@ img {
 .photo {
     margin: 0px;
     max-width: 100%;
-    width: 50%;
-
+    width: 100%;
 }
 
 /* ---- portfolios ---- */
@@ -257,6 +256,16 @@ textarea:focus, input:focus {
 	clear: both;
 }
 
+@media (min-width: 500px) {
+    .photo {
+        width:50%;
+        float:left;
+        padding: 2px
+
+    }
+
+}
+
 @media (min-width: 769px) {
     
     body {
@@ -331,10 +340,7 @@ textarea:focus, input:focus {
 
     }
 
-    .photo {
-    width: 33%;
 
-}
 
 }
 
@@ -348,6 +354,10 @@ textarea:focus, input:focus {
     .container {
         max-width: 1150px;
         width: 80%;
+    }
+
+    .photo {
+        width: 33.3%;
     }
 
 
