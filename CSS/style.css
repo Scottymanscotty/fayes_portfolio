@@ -337,7 +337,7 @@ textarea:focus, input:focus {
         text-align: center;
     }
 
-    img {
+    .interests img {
         max-width: 250px;
 
     }
@@ -368,7 +368,7 @@ textarea:focus, input:focus {
 
     }
 
-    img {
+    .interests img {
         max-width: 300px;
     }
 
