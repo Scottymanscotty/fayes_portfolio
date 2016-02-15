@@ -155,6 +155,10 @@ img {
 
 /* ---- Page Elements ---- */
 
+.img-interests {
+        max-width: 200px;
+    }
+
 .faye {
     max-width: 200px;
     border-radius: 50px;
