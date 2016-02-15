@@ -37,8 +37,13 @@ a {
 }
 
 img {
-    max-width: 200px;
+    max-width: 100%;
 
+}
+
+
+.photo img {
+    width: 50%;
 }
 
 .portfolio {
@@ -57,11 +62,7 @@ img {
 
 }
 
-.photo {
-    margin: 0px;
-    max-width: 100%;
-    width: 100%;
-}
+
 
 /* ---- portfolios ---- */
 
@@ -257,12 +258,7 @@ textarea:focus, input:focus {
 }
 
 @media (min-width: 500px) {
-    .photo {
-        width:50%;
-        float:left;
-        padding: 2px
 
-    }
 
     .col {
         width: 50%;
@@ -358,9 +354,7 @@ textarea:focus, input:focus {
         width: 80%;
     }
 
-    .photo {
-        width: 33.3%;
-    }
+
 
 
     .photography, .uni, .professional {
