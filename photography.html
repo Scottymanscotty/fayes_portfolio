@@ -10,6 +10,7 @@
         <script src="http://code.jquery.com/jquery-latest.min.js"></script>
         <script src="jQuery/jquery.slicknav.min.js"></script>
         <script src="jQuery/jquery.collagePlus.js"></script>
+        <script src="javascript/javascript.js"></script>
 
      </head>
     <body>
@@ -47,34 +48,5 @@
             <span>Website by <a href="http://waltonwebsolutions.co.uk">Walton Web Solutions </a></span><br>
             <span><a href="#top">Back to top</a></span>
         </footer>
-
-    <script>
-     $(function(){
-      $('#menu').slicknav({
-        closeOnClick:true
-      });
-    });
-     $(window).load(function () {
-        $('.Collage').collagePlus();
-
-         function collage() {
-    $('.Collage').collagePlus(
-        {
-            'fadeSpeed' : 2000
-        }
-    );
-};
-
-var resizeTimer = null;
-$(window).bind('resize', function() {
-    // hide all the images until we resize them
-    // set the element you are scaling i.e. the first child nodes of ```.Collage``` to opacity 0
-    $('.Collage .Image_Wrapper').css("opacity", 0);
-    // set a timer to re-apply the plugin
-    if (resizeTimer) clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(collage, 200);
-});
-    });
-    </script>
     </body>
 </html>
