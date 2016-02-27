@@ -91,23 +91,7 @@ img {
     margin-top: 50px;
 }
 
-.one, .two {
-    width: 50%;
-    float: left;
 
-}
-
-.one {
-    border-right: 2px solid lightblue;
-}
-
-.two {
-    border-left: 2px solid lightblue;
-}
-
-.three {
-    border-top: 4px solid lightblue;
-}
 
 .headline {
     margin-bottom: 0;
@@ -322,10 +306,26 @@ textarea:focus, input:focus {
         margin-top: 75px;
     }
 
+    .one, .two {
+    width: 50%;
+    float: left;
+
+}
+
+.one {
+    border-right: 2px solid lightblue;
+}
+
+.two {
+    border-left: 2px solid lightblue;
+}
+
+.three {
+    border-top: 4px solid lightblue;
+}
+
      #overlay img {
-
    max-height: 500px ;
-
 }
 
    /* ---- Nav for larger screens ---- */
