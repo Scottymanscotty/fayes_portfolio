@@ -45,9 +45,7 @@ img {
 
 
 
-.portfolio {
-    max-width: 100%;
-}
+
 
 /* =================================
   Base Layout Styles
@@ -311,6 +309,11 @@ textarea:focus, input:focus {
     float: left;
 
 }
+
+    .portfolio {
+        max-width: 559px;
+        max-height: 394px;
+    }
 
 .one {
     border-right: 2px solid lightblue;
