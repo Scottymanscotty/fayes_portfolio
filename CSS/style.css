@@ -2,6 +2,61 @@
   Base Element Styles
 ==================================== */
 
+
+
+.deleteMe {
+    width: 100%;
+
+
+
+}
+
+.blue, .red, .green, .default, .caps, .noCaps, .noTextTransform, .increaseFont, .decreaseFont, .reset {
+    max-width: 150px;
+    color: white;
+    font-size: 12px;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color:  green;
+}
+
+.default {
+    background-color: black;
+}
+
+.caps {
+    background-color: purple;
+}
+
+.noCaps {
+    background-color: pink;
+}
+
+.noTextTransform {
+    background-color: darkblue;
+}
+
+.increaseFont {
+    background-color: orange;
+}
+
+.decreaseFont {
+    background-color:fuchsia;
+}
+
+.reset {
+    background-color: brown;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -266,7 +321,7 @@ label {
 
 
 
-button {
+ button {
     padding: 15px;
     text-align: center;
     width: 100%;
@@ -278,6 +333,7 @@ button {
 textarea:focus, input:focus {
 	border: 2px solid lightblue;
 }
+w
 
 
 /* ---- Float clearfix ---- */
