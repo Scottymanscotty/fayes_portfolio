@@ -347,10 +347,7 @@ textarea:focus, input:focus {
 
 }
 
-. img:nth-child(2n+1) {
-    float: right;
-    clear: right;
-  }
+
 
 
 
