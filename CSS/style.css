@@ -318,8 +318,8 @@ textarea:focus, input:focus {
         margin-top: 75px;
     }
 
-    .one, .two {
-    width: 50%;
+    .one, .two, .three {
+    width: 33.3%;
     float: left;
 
 }
@@ -327,8 +327,10 @@ textarea:focus, input:focus {
     .portfolio {
         max-width: 559px;
         max-height: 394px;
+        height:263px;
+        width: 372px;
     }
-
+/*
 .one {
     border-right: 2px solid lightblue;
 }
@@ -340,7 +342,7 @@ textarea:focus, input:focus {
 .three {
     border-top: 4px solid lightblue;
 }
-
+*/
      #overlay img {
    max-height: 500px ;
 }
