@@ -2,6 +2,8 @@
   Base Element Styles
 ==================================== */
 
+
+
 .bullets::before {
     content: "";
     display: inline-block;
@@ -147,9 +149,8 @@ img {
     text-align: center;
     padding-top: 3em;
     padding-bottom: 1em;
-    background-color: lightblue;
+    background-color: skyblue;
     margin-bottom: 100px;
-    margin-top: 100px;
 }
 
 .photography , .uni , .professional , .contact {
@@ -211,26 +212,31 @@ img {
 
 /* ---- psuedo styling a PLACEHOLDERS ---- */
 
+a {
+    color: skyblue;
+}
+
 a:link {
-    color: pink;
+
 }
 
 a:visited {
-    color: lightblue;
+
 }
 
 a:hover {
-    color: pink;
+   color: deepskyblue;
 }
 
 a:active {
-    color:blue;
+    text-decoration: underline;
 }
 
 a:focus {
-    color: red;
-    border: 1px solid red;
+
 }
+
+
 
 /* ---- COLLAGEPLUS ---- */
 
@@ -439,7 +445,7 @@ textarea:focus, input:focus {
 @media (min-width: 1100px) {
 
     #overlay img {
-   max-height: 700px ;
+   max-height: 900px ;
 
 }
 
