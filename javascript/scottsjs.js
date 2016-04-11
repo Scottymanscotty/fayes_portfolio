@@ -78,17 +78,36 @@ function makeList(listText) {
 $("body").on("click", ".portfolio-nav a", function (e){
     e.preventDefault();
     var url = this.href;
+    var $content =$("#content");
 
-    $("#ajax").remove();
-    $("#content").load(url + " #ajax").hide().fadeIn(1000);
+    $.ajax({
+        type: "GET",
+        url: url,
+        timeout: 10000,
+        beforeSend: function () {
+            $content.html('<h1 id="loading"><b>Loading...</b></h1>')
+            },
+            complete: function () {
+                $("#loading").remove()
+            },
+            success: function (data) {
+                $content.html( $(data).find("#ajax") ).hide().fadeIn(1000);
+            },
+            error: function() {
+                $content.html("<h1> Page has not loaded. Please try again. </h1>")
+            }
+    });
+
+//    $("#ajax").remove();
+//    $("#content").load(url + " #ajax").hide().fadeIn(1500);
 
 });
 
 
 
-   $nav.hide().slideDown(2000);
-   $("h2").hide().fadeIn(2000);
-   $one.hide().fadeIn(4000);
+   $nav.hide().slideDown(1500);
+   $("#ajax h2").hide().fadeIn(1500);
+   $one.hide().fadeIn(3000);
 
 
 
