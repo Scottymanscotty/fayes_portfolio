@@ -79,6 +79,7 @@ img {
 
 
 
+
 /* =================================
   Base Layout Styles
 ==================================== */
@@ -343,9 +344,8 @@ textarea:focus, input:focus {
 
 @media (min-width: 769px) {
     
-    body {
-        margin-top: 75px;
-    }
+
+
 
     #ajax img {
     width: 33%;
