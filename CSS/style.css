@@ -2,6 +2,26 @@
   Base Element Styles
 ==================================== */
 
+.bullets::before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: coral;
+    margin: 0 10px;
+}
+
+.bullets::after {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: coral;
+    margin: 0 10px;
+}
+
 * {
 	box-sizing: border-box;
 }
