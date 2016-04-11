@@ -53,6 +53,33 @@ function makeList(listText) {
     $listHTML += '<button class="deleteMe">Delete!</button>';
     return $listHTML;
 }
+     //AJAX main nav
+
+/*    $("#menu li a ").on("click", function(e){
+        e.preventDefault();
+        var url = this.href
+        console.log("TEST");
+
+
+     $("#ajaxx").remove();
+     $("#test").load(url + " #ajaxx").hide().fadeIn();
+
+    });
+
+  */
+    //AJAX portfolio pages
+
+$(".portfolio-nav a").on("click", function (e){
+    e.preventDefault();
+    var url = this.href;
+
+    $("#ajax").remove();
+    $("#content").load(url + " #ajax").hide().fadeIn("slow");
+   // $nav.hide().slideDown(2000);      to add animations everytime instead
+   // $("h2").hide().fadeIn(2000);       of just on initial load
+//  $one.hide().fadeIn(2000);
+});
+
 
 $nav.hide().slideDown(2000);
 $("h2").hide().fadeIn(2000);
@@ -118,7 +145,7 @@ $("body").on("click", ".changeColour", function(e){
     });
 */
 
-$("body").on("click", ".deleteMe", function(e){
+$("ul").on("click", ".deleteMe", function(e){
     e.preventDefault();
 
     $this = $(this);
@@ -146,6 +173,7 @@ $button.on("click", function(e) {
     $placeholder.attr("placeholder", "Type here!");
     }
 });
+
 
 
 
