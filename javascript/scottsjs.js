@@ -6,7 +6,7 @@
 $(function() {
 
 //declare variabled
-var $one = $("img");
+var $one = $("img.portfolio");
 var $nav = $(".portfolio-nav");
 var $button = $("#magic");
 var $para = $(".paragraph");
@@ -28,7 +28,7 @@ var $decreaseFontSize = $('<button class="decreaseFont">Size -</button>');
 var $reset = $('<button class="reset">Reset (Work in progress)</button>');
 
 
-$("footer").before("<strong>Colours</strong> <br>");
+/* $("footer").before("<strong>Colours</strong> <br>");
 $("footer").before($blue);
 $("footer").before($red);
 $("footer").before($green);
@@ -43,6 +43,8 @@ $("footer").before ($decreaseFontSize);
 $("footer").before($reset);
 $para.after($ul);
 
+
+
 $delete.attr("disabled","true");  // temporarily disable original delete button
 
 function makeList(listText) {
@@ -53,37 +55,46 @@ function makeList(listText) {
     $listHTML += '<button class="deleteMe">Delete!</button>';
     return $listHTML;
 }
+
+*/
      //AJAX main nav
 
-/*    $("#menu li a ").on("click", function(e){
+  /*  $("body").on("click", "#menu li a ", function(e){
         e.preventDefault();
         var url = this.href
-        console.log("TEST");
 
 
-     $("#ajaxx").remove();
-     $("#test").load(url + " #ajaxx").hide().fadeIn();
+
+   $("#ajaxx").remove();
+   $("#test").load(url + " #ajaxx");
+
 
     });
 
   */
+
     //AJAX portfolio pages
 
-$(".portfolio-nav a").on("click", function (e){
+$("body").on("click", ".portfolio-nav a", function (e){
     e.preventDefault();
     var url = this.href;
 
     $("#ajax").remove();
-    $("#content").load(url + " #ajax").hide().fadeIn("slow");
-   // $nav.hide().slideDown(2000);      to add animations everytime instead
-   // $("h2").hide().fadeIn(2000);       of just on initial load
-//  $one.hide().fadeIn(2000);
+    $("#content").load(url + " #ajax").hide().fadeIn(1000);
+
 });
 
 
-$nav.hide().slideDown(2000);
-$("h2").hide().fadeIn(2000);
-$one.hide().fadeIn(2000);
+
+   $nav.hide().slideDown(2000);
+   $("h2").hide().fadeIn(2000);
+   $one.hide().fadeIn(4000);
+
+
+
+
+
+
 
 
 $blue.on("click", function(){
