@@ -338,11 +338,15 @@ textarea:focus, input:focus {
         margin-top: 75px;
     }
 
-    .one, .two, .three {
-    width: 33.3%;
+    .one, .three {
+    width: 30%;
     float: left;
 
 }
+    .two {
+        width: 40%;
+        float: left;
+    }
 
     .portfolio {
         max-width: 559px;
