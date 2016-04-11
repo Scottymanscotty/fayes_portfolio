@@ -107,7 +107,8 @@ $("body").on("click", ".portfolio-nav a", function (e){
 
    $nav.hide().slideDown(1500);
    $("#ajax h2").hide().fadeIn(1500);
-   $one.hide().fadeIn(3000);
+   $("#ajax p").hide().fadeIn(1500);
+   $one.hide().fadeIn(1500);
 
 
 
