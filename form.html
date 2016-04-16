@@ -5,15 +5,15 @@
 	   <title>Faye Walton | Urban Designer</title>
        <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 	   <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/slicknav.css">
+       <link rel="stylesheet" href="css/slicknav.css">
 	   <link rel="stylesheet" href="css/style.css">
-        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-        <script src="jQuery/jquery.slicknav.min.js"></script>
+       <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+       <script src="jQuery/jquery.slicknav.min.js"></script>
 
-     </head>
+    </head>
     <body>
-        <header class="main-header ">
-             <div class="container clearfix">
+      <header class="main-header ">
+         <div class="container clearfix">
             <h1 class="name">-FW-</h1>
             <ul  id="menu" class="main-nav">
                 <li> <a href="index.html">Home</a></li>
@@ -22,53 +22,39 @@
                 <li> <a href="photography.html">Photography</a></li>
                 <li> <a href="form.html">Contact me</a></li>
             </ul>
-         </div> <!--/.container-->
-        </header>
+        </div> <!--/.container-->
+      </header>
 
+    <section id="test clearfix">
+        <div id="ajaxx" class="container clearfix">
 
+            <form id="form" action="#" method="post">
+                <h2>Get in touch</h2>
+                <input type="text" placeholder="Your name" id="name" name="user_name" required="required"><br>
+                <input type="text" id="company_name" placeholder="Company Name" name="user_company_name"><br>
+                <input type="email" placeholder="Email address" id="email" name="user_email" required="required"><br>
+                <input type="tel" placeholder="Contact Number" id="phone" name="user_contact_number"><br>
+                <textarea id="information" placeholder="Tell me more." name="user_info" required="required"></textarea><br>
+                <label class="question">How did you hear about me?</label><br>
+                <input type="checkbox" id="word_of_mouth" value="via_word_of_mouth" name="user_know_me"><label for="in_touch">Word of mouth</label><br>
+                <input type="checkbox" id="search_engine" value="via_search_engine" name="user_know_me"><label for="in_touch">Search engine</label><br>
+                <input type="checkbox" id="other" value="via_other" name="user_know_me"><label for="in_touch">Other</label><br>
+                <label class="question">Like to see a C.V?</label><br>
+                <input type="checkbox" id="request_CV" value="requested_CV" name="user_request_CV"><label for="in_touch">Request C.V</label><br>
+                <button type="submit"><strong>SUBMIT</strong></button>
+            </form>
+            <div class="thanks">
+                <h2>Thank you</h2>
+                <p>Thank you for taking the time to visit my site. I hope you've enjoyed looking at my work and eagerly anticipate responding to any questions or requests you may have for me.</p>
+                <img class="logo" src="img/fayeslogo.jpg">
+            </div>  <!--/.thanks-->
 
-
-    <section id="test">
-    <div id="ajaxx" class="container clearfix">
-
-
-
-        <form id="form" action="#" method="post">
-            <h2>Please don't hesitate to get in touch</h2>
-
-
-            <input type="text" placeholder="Your name" id="name" name="user_name" required="required"><br>
-
-
-            <input type="text" id="company_name" placeholder="Company Name" name="user_company_name"><br>
-
-
-            <input type="email" placeholder="Email address" id="email" name="user_email" required="required"><br>
-
-            <input type="tel" placeholder="Contact Number" id="phone" name="user_contact_number"><br>
-
-
-
-
-            <textarea id="information" placeholder="Tell me more." name="user_info" required="required"></textarea><br>
-
-                  <label class="question">How did you hear about me?</label><br>
-            <input type="checkbox" id="word_of_mouth" value="via_word_of_mouth" name="user_know_me"><label for="in_touch">Word of mouth</label><br>
-            <input type="checkbox" id="search_engine" value="via_search_engine" name="user_know_me"><label for="in_touch">Search engine</label><br>
-            <input type="checkbox" id="other" value="via_other" name="user_know_me"><label for="in_touch">Other</label><br>
-
-            <label class="question">Like to see a C.V?</label><br>
-            <input type="checkbox" id="request_CV" value="requested_CV" name="user_request_CV"><label for="in_touch">Request C.V</label><br>
-
-            <button type="submit"><strong>SUBMIT</strong></button>
-        </form>
-
-</div> <!--/.container-->
+    </div> <!--/.container-->
 </section><!--/test-->
 
         <footer class="main-footer">
-            <span>&copy;2016 Faye Walton - Urban Designer</span><br>
-            <span>Website by <a href="http://waltonwebsolutions.co.uk">Walton Web Solutions </a></span><br>
+            <span class="borderRight ">&copy;2016 Faye Walton - Urban Designer</span>
+            <span class="borderRight">Website by <a href="http://waltonwebsolutions.co.uk">Walton Web Solutions </a></span>
             <span><a href="#top">Back to top</a></span>
         </footer>
 
