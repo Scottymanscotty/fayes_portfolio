@@ -24,6 +24,10 @@
     margin: 0 10px;
 }
 
+a:visited:before {
+   content:  "\2713 ";
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -71,6 +75,22 @@ img {
     max-width: 100%;
 
 }
+
+.main-footer span:not(:last-child) {
+    border-right: 1px solid black;
+    padding: 0px 10px;
+}
+
+.main-footer span:last-child {
+    padding: 0px 10px;
+}
+
+.logo {
+    max-height: 600px;
+
+}
+
+
 
 
 
@@ -172,6 +192,7 @@ img {
 
 
 
+
 }
 
 /* ---- Layout Containers ---- */
@@ -195,7 +216,8 @@ img {
 /* ---- Page Elements ---- */
 
 .img-interests {
-        max-width: 200px;
+        width: 150px;
+        height: 150px;
     }
 
 .faye {
@@ -269,6 +291,20 @@ form {
     padding: 10px 20px;
     margin: 50px auto;
     max-width: 100%;
+    height: 800px;
+    border-radius: 15px 15px;
+}
+
+
+
+input[type="checkbox"]:checked + label {
+    font-size: 1.3em;
+
+    color: deepskyblue;
+
+
+
+
 }
 
 input[type="text"],
@@ -276,10 +312,14 @@ input[type="email"],
 input[type="tel"],
 textarea {
     font-size: 20px;
-    padding: 15px;
+    padding: 5px;
     width: 100%;
     margin-bottom: 20px;
 }
+
+input[type="checkbox"] {
+      transform:scale(2.0, 2.0);
+    }
 
 input[type="checkbox"] {
     padding-top: 10px;
@@ -320,6 +360,16 @@ textarea:focus, input:focus {
 }
 
 
+
+.thanks {
+    padding: 10px 20px;
+    margin: 50px auto;
+
+
+    text-align: center;
+}
+
+
 /* ---- Float clearfix ---- */
 
 .clearfix::after {
@@ -331,7 +381,10 @@ textarea:focus, input:focus {
 @media (min-width: 500px) {
 
 
-
+    .img-interests {
+        width: 200px;
+        height: 200px;
+    }
 
     .col {
         width: 50%;
@@ -353,6 +406,21 @@ textarea:focus, input:focus {
 
 }
 
+    .photography, .uni, .professional {
+        width: 33.3%;
+
+    }
+
+     .interests {
+        text-align: center;
+    }
+
+     .contact {
+        float: none;
+        margin: 0 auto;
+        max-width: 40%;
+
+    }
 
 
 
@@ -424,19 +492,22 @@ textarea:focus, input:focus {
         text-align: center;
     }
 
+    .thanks {
+        width: 50%;
+        float: left;
+    }
+
     form {
-        max-width: 600px;
+        width: 50%;
+
+        float: left;
 
     }
 
-    .interests {
-        text-align: center;
-    }
 
-    .interests img {
-        max-width: 250px;
 
-    }
+
+
 
 
 
@@ -459,24 +530,19 @@ textarea:focus, input:focus {
         width: 80%;
     }
 
-
-
-
-    .photography, .uni, .professional {
-        width: 33.3%;
-
+    .img-interests {
+        width: 300px;
+        height: 250px;
     }
 
-    .interests img {
-        max-width: 300px;
-    }
 
-    .contact {
-        float: none;
-        margin: 0 auto;
-        max-width: 40%;
 
-    }
+
+
+
+
+
+
 }
 
 
