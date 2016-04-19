@@ -27,6 +27,10 @@ var $increaseFontSize = $('<button class="increaseFont">Size +</button>');
 var $decreaseFontSize = $('<button class="decreaseFont">Size -</button>');
 var $reset = $('<button class="reset">Reset (Work in progress)</button>');
 
+var $home = $(".home");
+    $home.hide();
+
+
 
 /* $("footer").before("<strong>Colours</strong> <br>");
 $("footer").before($blue);
@@ -79,6 +83,9 @@ $("body").on("click", ".portfolio-nav a", function (e){
     e.preventDefault();
     var url = this.href;
     var $content =$("#content");
+    $(".portfolio-nav li a.active").removeClass("active");
+    $(this).addClass("active");
+
 
     $.ajax({
         type: "GET",
@@ -92,6 +99,7 @@ $("body").on("click", ".portfolio-nav a", function (e){
             },
             success: function (data) {
                 $content.html( $(data).find("#ajax") ).hide().fadeIn(1000);
+
             },
             error: function() {
                 $content.html("<h1> Page has not loaded. Please try again. </h1>")
