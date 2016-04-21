@@ -2,7 +2,10 @@
 <html>
     <head>
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	   <title>Faye Walton | Urban Designer</title>
+       <meta name="description" content="An Online portfolio showcasing Urban Design work of Urban Designer - Faye Walton. Working in Salford- Manchester currently based in Leeds - Yorkshire.">
+       <meta name="keywords" content="Urban Design, Urban Designer, Leeds,  Yorkshire, Faye Walton">
+       <meta name="author" content="Walton Web Solutions">
+	   <title>Faye Walton | Urban Designer Portfolio</title>
        <link rel="icon" type="image/x-icon" href="favicon.ico" />
        <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 	   <link rel="stylesheet" href="css/normalize.css">
@@ -23,7 +26,7 @@
                     <li><a href="professional.html">Professional</a></li>
                     <li><a href="academic.html">Academic</a></li>
                     <li><a href="photography.html">Photography</a></li>
-                    <li><a href="form.html">Contact me</a></li>
+                    <li><a href="#contact">Contact me</a></li>
                 </ul>
              </div> <!--/.container-->
         </header>
@@ -32,21 +35,21 @@
             <div class="banner">
                 <img class="faye" src="img/faye_grad.jpg" alt="Faye at work">
                 <h1 class="headline">Faye Walton</h1>
-                <span>Urban Designer - MA UD | MA TRP | BAHons IAAD</span>
+                <span><b>Urban Designer - MA UD | MA TRP | BAHons IAAD </b></span>
             </div> <!--/.banner-->
 
             <div class="container clearfix">
 
                 <div id="about" class="about">
-                    <h1>A little about me</h1>
-                    <p>Hello!</p>
-                    <p> I'm an Urban Designer from Yorkshire, with a passion to enhance the built environment. My aim is to improve peoples quality of life by improving places they work and play in. I consider myself a triple threat. By this, I mean Architecture, Planning and Design. I have a Masters in Urban Design and Town and Regional Planning and I started my journey by studying a degree in Interior Architecture. As if that isn't enough I have been working as a Landscape Architect for the last three years. I also enjoy taking photos of landscapes, however, I am usualy drawn to plants and insects. </p>
+                    <h1 class="capitalizeFirst">ABOUT ME</h1>
+
+                    <p> I'm an <b>Urban Designer</b> based in <b>Yorkshire - Leeds </b>, with a passion to enhance the built environment. My aim is to improve peoples quality of life by improving places they work and play in. I consider myself a triple threat. By this, I mean <b> Architecture, Planning and Design </b>. I have a Masters in <b>Urban Design</b> and <b>Town and Regional Planning </b> and I started my journey by studying a degree in <b>Interior Architecture</b>. As if that isn't enough I have been working as a <b>Landscape Architect</b> for the last three years. I also enjoy taking photos of landscapes, however, I am usualy drawn to plants and insects. </p>
                     <p>I have added some of my favourite projects I have created below. </p>
                 </div>  <!--/.about-->
 
 
                 <div class="interests clearfix">
-                    <h1 class="myinterests">My Work</h1>
+                    <h1 class="myinterests capitalizeFirst">MY WORK</h1>
 
                     <div class="professional col">
                         <a href="professional.html">
@@ -68,15 +71,28 @@
                         <img class="img-interests" src="img/camera-icon.png" alt="Camera">
                         </a>
                     </div><!--/.photography-->
-
-                    <div class="contact col">
-                        <a href="form.html">
-                        <h2>Contact Me!</h2>
-                        <img class="img-interests" src="svg/email_icon.svg" alt="Letter Icon">
-                        </a>
-                    </div><!--/.contact-->
                 </div><!--/.interests-->
-          </div> <!--/.container-->
+                <h1 class="capitalizeFirst">CONTACT ME</h1>
+                 </div> <!--/.container-->
+
+                 <div class="">
+
+
+
+                        <a href="form.html"></a>
+                    </div><!--/.contact-->
+                <div id="bottomBanner">
+                <form action="mail_handler.php" method="get" id="contact">
+                <h1>Get In Touch</h1>
+                 <input placeholder="First Name:" type="text" name="first_name" required="required"><br>
+                 <input placeholder="Last Name:" type="text" name="last_name" required="required"><br>
+                 <input placeholder="Email:" type="text" name="email" required="required"><br>
+                 <br><textarea required="required" placeholder="Tell me more..." rows="4" name="message" cols="15"></textarea><br>
+                <button type="submit" name="submit" value="Submit">Send</button>
+</form>
+                    </div> <!--bottombanner -->
+
+
      </div> <!--/.ajaxx-->
 </section>  <!--/.test-->
 

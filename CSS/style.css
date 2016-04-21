@@ -125,16 +125,23 @@ img {
 /* ---- INDEX PAGE ---- */
 
 .banner {
-    height: 450px;
     text-align: center;
     padding-top: 3em;
-    padding-bottom: 1em;
+    padding-bottom: 30px;
     background-color: skyblue;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    letter-spacing: 0.3em;
+
+}
+
+#bottomBanner {
+    width: 100%;
+    background-color: skyblue;
 }
 
 .headline {
-    margin-bottom: 0;
+    margin-bottom: 20px;
+    font-size: 50px;
 }
 
 .faye {
@@ -142,21 +149,42 @@ img {
     border-radius: 50px;
 }
 
-.about {
-    margin-bottom: 50px;
+.about, .interests {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+
+
 }
 
+.interests {
+
+}
+
+
+
+ .capitalizeFirst {
+        text-align: left;
+        letter-spacing: 0.2em;
+        border-bottom: 2px solid grey;
+    }
+
+    .capitalizeFirst::first-letter {
+        font-size: 3em;
+
+    }
+
+
+
 .img-interests {
-    width: 150px;
-    height: 150px;
+    max-width: 250px;
+    height: 250px;
  }
 
 
 
 
-.myinterests {
-    margin-bottom: 40px;
-}
+
 
 /* ---- portfolios ACADEMIC/PROFESSIONAL ---- */
 
@@ -164,7 +192,7 @@ img {
     text-align: center;
     margin-top: 50px;
 }
-.photography , .uni , .professional , .contact {
+.photography , .uni , .professional {
     margin-bottom: 20px;
 }
 
@@ -240,11 +268,11 @@ a:focus {}
 /* ---- form ---- */
 
 form {
-    background: lightblue;
+    background: skyblue;
     padding: 10px 20px;
     margin: 50px auto;
     max-width: 100%;
-    height: 800px;
+    height: 600px;
     border-radius: 15px 15px;
 }
 
@@ -294,7 +322,7 @@ label {
 button {
     padding: 15px;
     text-align: center;
-    width: 100%;
+    width: 40%;
     background: white;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -339,6 +367,16 @@ textarea:focus, input:focus {
 
 @media (min-width: 769px) {
 
+    button {
+    width: 20%;
+}
+
+     .capitalizeFirst {
+
+        letter-spacing: 0.5em;
+
+    }
+
     #ajax img {
     width: 33%;
     float: left;
@@ -353,12 +391,6 @@ textarea:focus, input:focus {
         text-align: center;
 }
 
-    .contact {
-        float: none;
-        margin: 0 auto;
-        max-width: 40%;
-
-}
 
     #overlay img {
         max-height: 500px ;
@@ -414,10 +446,13 @@ textarea:focus, input:focus {
     }
 
 
-
+/*
     .about {
         text-align: center;
+
     }
+*/
+
 
     .thanks {
         width: 50%;
@@ -425,8 +460,8 @@ textarea:focus, input:focus {
     }
 
     form {
-        width: 50%;
-        float: left;
+        width:1150px;
+
     }
 }
 
