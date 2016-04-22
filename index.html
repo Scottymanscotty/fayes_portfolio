@@ -20,7 +20,7 @@
 
          <header class="main-header ">
              <div class="container clearfix">
-                <h1 class="name">-FW-</h1>
+                 <a href="index.html"><h1 class="name">-FW-</h1></a>
                 <ul  id="menu" class="main-nav">
                     <li><a href="index.html"  class="active">Home</a></li>
                     <li><a href="professional.html">Professional</a></li>
@@ -33,7 +33,7 @@
     <section id="test">
         <div id="ajaxx">
             <div class="banner">
-                <img class="faye" src="img/faye_grad.jpg" alt="Faye at work">
+                <img class="faye" src="img/faye.jpg" alt="Faye at work">
                 <h1 class="headline">Faye Walton</h1>
                 <span><b>Urban Designer - MA UD | MA TRP | BAHons IAAD </b></span>
             </div> <!--/.banner-->
@@ -43,8 +43,14 @@
                 <div id="about" class="about">
                     <h1 class="capitalizeFirst">ABOUT ME</h1>
 
-                    <p> I'm an <b>Urban Designer</b> based in <b>Yorkshire - Leeds </b>, with a passion to enhance the built environment. My aim is to improve peoples quality of life by improving places they work and play in. I consider myself a triple threat. By this, I mean <b> Architecture, Planning and Design </b>. I have a Masters in <b>Urban Design</b> and <b>Town and Regional Planning </b> and I started my journey by studying a degree in <b>Interior Architecture</b>. As if that isn't enough I have been working as a <b>Landscape Architect</b> for the last three years. I also enjoy taking photos of landscapes, however, I am usualy drawn to plants and insects. </p>
-                    <p>I have added some of my favourite projects I have created below. </p>
+                    <p> I'm an <b>Urban Designer</b> based in <b>Leeds - Yorkshire </b>, with a passion to enhance the built environment. My aim is to improve peoples quality of life by improving the places they work and play in. I consider myself a triple threat. By this, I mean <b> Architecture, Planning and Design </b>. I have a Masters in <b>Urban Design</b> and <b>Town and Regional Planning </b> and I started my journey by studying <b>Interior Architecture and Design</b>. As if that isn't enough I have been working as a <b>Landscape Architect</b> for the last three years.</p>
+                    <iframe class="iframe"
+  width="100%"
+  height="350"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBBqWfkPdor-KoKaF2n4aGd9MvhzuWVUZ4
+    &q=Leeds" allowfullscreen>
+</iframe>
                 </div>  <!--/.about-->
 
 
@@ -72,18 +78,15 @@
                         </a>
                     </div><!--/.photography-->
                 </div><!--/.interests-->
-                <h1 class="capitalizeFirst">CONTACT ME</h1>
-                 </div> <!--/.container-->
-
-                 <div class="">
+                <h1 id="contact" class="capitalizeFirst"  >CONTACT ME</h1>
 
 
 
-                        <a href="form.html"></a>
-                    </div><!--/.contact-->
+                </div> <!--/.container-->
+
                 <div id="bottomBanner">
-                <form action="mail_handler.php" method="get" id="contact">
-                <h1>Get In Touch</h1>
+                <form action="mail_handler.php" method="post" >
+                <h1 >Get In Touch</h1>
                  <input placeholder="First Name:" type="text" name="first_name" required="required"><br>
                  <input placeholder="Last Name:" type="text" name="last_name" required="required"><br>
                  <input placeholder="Email:" type="text" name="email" required="required"><br>
@@ -91,6 +94,9 @@
                 <button type="submit" name="submit" value="Submit">Send</button>
 </form>
                     </div> <!--bottombanner -->
+
+
+
 
 
      </div> <!--/.ajaxx-->
