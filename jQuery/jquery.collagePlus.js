@@ -17,12 +17,16 @@
 
 
 
+
 ;(function( $ ) {
 
 
     $.fn.collagePlus = function( options ) {
 
         return this.each(function() {
+
+
+
 
             /*
              *
@@ -385,17 +389,18 @@
         // the ideal height you want your images to be
         'targetHeight'          : 400,
         // how quickly you want images to fade in once ready can be in ms, "slow" or "fast"
-        'fadeSpeed'             : "fast",
+        'fadeSpeed'             : "slow",
         // how the resized block should be displayed. inline-block by default so that it doesn't break the row
         'display'               : "inline-block",
         // which effect you want to use for revealing the images (note CSS3 browsers only),
-        'effect'                : 'default',
+        'effect'                : 'effect-5',
         // effect delays can either be applied per row to give the impression of descending appearance
         // or horizontally, so more like a flock of birds changing direction
         'direction'             : 'vertical',
         // Sometimes there is just one image on the last row and it gets blown up to a huge size to fit the
         // parent div width. To stop this behaviour, set this to true
         'allowPartialLastRow'   : true
+
     };
 
 
