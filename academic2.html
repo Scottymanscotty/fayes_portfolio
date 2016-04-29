@@ -10,8 +10,14 @@
        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
        <script src="jQuery/jquery.slicknav.min.js"></script>
         <!--[if IE]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+         <style>
+        @media all and (-ms-high-contrast:none)
+        {
+        *::-ms-backdrop, .main-footer { position: fixed; width: 100%; bottom: 0; } .portfolio-work {margin-bottom:200px; }; /* IE11 - FIX FOR FOOTER FLEXBOX */
+        }
+  </style>
     </head>
     <body>
         <a href="index.html"><h1 class="home">Home page</h1></a>
